@@ -19,7 +19,7 @@ In other words, it replicates an image with 1's and 0's.
 1. Clone this repository.
 2. Typical usage often looks like :
 ```
-  python binarify.py -input path/to/image.jpg -output path/to/output/text/file -mode black
+  python binarify.py -input path/to/image.jpg -output path/to/output/text/file -mode black -width 120
 ```
 3. Check the output.txt file for the text version of the same.
 
