@@ -12,7 +12,7 @@ binary = ['0','1']
 
 def get_args():
     parser = argparse.ArgumentParser("Image to Binary")
-    parser.add_argument("-input", type = str, default = "input.jpg", help="Path to Input image")
+    parser.add_argument("-input", type = str, default = "input.png", help="Path to Input image")
     parser.add_argument("-output", type = str, default = "output.txt", help="Path to Output text file")
     parser.add_argument("-width", type = int, default = 100, help="Output Width")
     parser.add_argument("-mode", type = str, default="white", choices=["black", "white"], help="Predominant Color")
