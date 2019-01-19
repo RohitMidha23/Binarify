@@ -86,16 +86,21 @@ Let's <em> Binarify </em> it.
 
 ## Contents
 - [What is Binarify](#what-is-binarify)
-- [How to use BInarify](#how-to-use-binarify)
+- [Setup](#setup)
+- [Use Binarify](#use-binarify)
 - [Support Me](#support-me)
 
 ## What is Binarify
 Binarify is a python script that lets you convert any image to a binary image resembling the input image.
 In other words, it replicates an image with 1's and 0's.
 
+## Setup
+Make sure you have the following packages installed before usage: 
+- Pillows >= 3.4.0
+- urllib
+- argparse 
 
-
-## How to use Binarify
+## Use Binarify
 
 1. Clone this repository.
 2. Typical usage often looks like :
