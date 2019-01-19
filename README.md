@@ -3,7 +3,7 @@
 Binarify is a python package that lets you convert any image to binary.
 
 Let's take a picture of the spidercat.
-[](https://github.com/RohitMidha23/Binarify/blob/master/input.png)
+![](https://github.com/RohitMidha23/Binarify/blob/master/input.png)
 
 Let's <em> Binarify </em> it.
 ```
