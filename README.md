@@ -92,6 +92,7 @@ Let's <em> Binarify </em> it.
 
 ## What is Binarify
 Binarify is a python script that lets you convert any image to a binary image resembling the input image.
+
 In other words, it replicates an image with 1's and 0's.
 
 ## Setup
@@ -114,6 +115,7 @@ Make sure you have the following packages installed before usage:
 If you :heart: it, :star: this repo.
 
 Help me translate this README into other languages. :smile:
+
 Check out my other work too either on [Github](http://bit.ly/2VMv9ZP) or on [my website](https://rohitmidha23.github.io).
 
 Enjoy!
