@@ -1,4 +1,4 @@
-# Binarify
+# Binarify [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Convert%20%your&20images%20to%20binary&url=https://github.com/RohitMidha23/Binarify&via=github&hashtags=images,art,binary,code,cooltech,developers)
 
 Binarify is a python package that lets you convert any image to binary.
 
