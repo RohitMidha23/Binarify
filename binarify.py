@@ -34,7 +34,7 @@ def conv_pixels(image):
 def make_binary(image):
     new_width = opt.width
     image = resize(image,new_width)
-    image = image.convert('L')
+    image = image.convert('1')
 
     new_pixels = conv_pixels(image)
     len_pixels = len(new_pixels)
