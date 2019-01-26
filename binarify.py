@@ -1,5 +1,4 @@
 from PIL import Image
-import urllib
 import sys
 import argparse
 
@@ -26,20 +25,18 @@ def resize(image,new_width=100):
     new_image = image.resize((new_width,new_height))
     return new_image
 
-def conv_pixels(image):
-    initial_pixels = list(image.getdata())
-    new_pixels = [binary[pixel_value%2] for pixel_value in initial_pixels]
-    return ''.join(new_pixels)
 
 def make_binary(image):
     new_width = opt.width
     image = resize(image,new_width)
     image = image.convert('1')
 
-    new_pixels = conv_pixels(image)
+    initial_pixels = list(image.getdata())
+    new_pixels = [binary[pixel_value%2] for pixel_value in initial_pixels]
+    new_pixels = ''.join(new_pixels)
     len_pixels = len(new_pixels)
 
-    new_image = [new_pixels[index:index+new_width] for index in range(0, len_pixels, new_width)]
+    new_image = [new_pixels[i:i+new_width] for i in range(0,len_pixels, new_width)]
 
     return '\n'.join(new_image)
 
